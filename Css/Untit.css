@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+.btn-2 {
+    letter-spacing: 0;
+}
+
+.btn-2:hover,
+.btn-2:active {
+  letter-spacing: 5px;
+}
+
+.btn-2:after,
+.btn-2:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.btn-2:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+
+.margin
+{
+    margin: auto;
+}
+
+.renksoluk
+{
+    color: #fff;
+}
+
+.footerr
+{
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footerr:hover
+{
+  color: #fff;
+}
+
+.anakucukgorsel
+{
+  width: 200px;
+  height: 100px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.digitalpaz li
+{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: antiquewhite;
+}
+
+
+.anaopacity:hover
+{
+  opacity: 0.4;
+
+  transition: .6s;
+}

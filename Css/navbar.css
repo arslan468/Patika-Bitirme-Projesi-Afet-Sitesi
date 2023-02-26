@@ -1,0 +1,102 @@
+
+.ana
+{
+    background-color: rgb(196, 232, 240);
+    color: black;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.ana:hover
+{
+    background-color: rgb(52, 58, 64);
+    color: aliceblue;
+    transition: .5s;
+}
+
+.drop
+{
+    color: aliceblue;
+    transition: .5s;
+}
+
+.drop:hover
+{
+    color: black;
+    background-color: rgb(196, 232, 240);
+    transition: .3s;
+}
+
+.bakim
+{
+    color: aliceblue;
+    transition: .3s;
+}
+
+.bakim:hover
+{
+    color: rgb(24, 24, 23);
+    background-color: rgb(196, 232, 240);
+    transition: .5s;
+    font-style:inherit;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.bakimm
+{
+    color: aliceblue;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+.bakimm:hover
+{
+    color: rgb(24, 24, 23);
+    background-color: rgb(196, 232, 240);
+    transition: .3s;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.sag
+{
+    float: right;
+}
+
+.stop
+{
+    color: #f0f8ff;
+}
+
+.stop:hover
+{
+    color: rgb(52, 58, 64);
+    transition: 1s;
+}
+
+.border
+{
+    border: 2px;
+    border-color: rgba(128, 128, 128, 0.267);
+    
+}
+
+.gelenekmetin
+{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gelenekmetinn
+{
+    font-size: 19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list
+{
+    font-size: 25px;
+    margin: 30px;
+
+}
