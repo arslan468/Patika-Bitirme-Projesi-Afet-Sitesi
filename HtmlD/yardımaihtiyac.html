@@ -115,6 +115,16 @@
       </nav>
   </div>
   <!-- navbar - end -->
+  
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <h1 class="font-weight-bolder" style="text-align: center; ">
+          Aşağıda bulunan formu doldurunuz arkadaşlarımız sizinle en kısa sürede iletişime geçeceklerdir.
+        </h1>
+      </div>
+    </div>
+  </div>
 
   <!-- Form --- Start -->
   <div class="container">
@@ -142,6 +152,10 @@
           <div class="form-group">
             <label for="inputAddress2">Açık Adres</label>
             <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Yardıma İhtiyaç Duyduğunuz Konu</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Gıda">
           </div>
           <div class="form-row">
             <div class="form-group col-md-6">
@@ -241,7 +255,7 @@
               <input type="text" class="form-control" id="inputZip">
             </div>
           </div>
-          <button type="submit" class="btn btn-primary">Başvuru Yap</button>
+          <button type="submit"  onClick="alert('En kısa sürede sizinle iletişime geçeceğiz. Geçmiş Olsun...')" class="btn btn-primary" >Başvuru Yap</button>
         </form>
       </div>
     </div>
@@ -310,7 +324,14 @@
       </footer>
       
   </div>
-      <!-- footer --- end -->
-        
+  <!-- footer --- end -->
+
+  <!-- JavaScript -->
+  <script>
+    var buton=document.getElementById("buton");
+    buton.onclick=function(){
+    window.alert("Merhaba Dünya"); }
+  </script>
+  <!-- JavaScript -->
 </body>
 </html>
