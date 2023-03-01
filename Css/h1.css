@@ -29,3 +29,14 @@ h1
     transition: 0.6s;
 }
 
+#boyut
+{
+    width: 350px;
+    height: 100px;
+}
+
+.aboutborder
+{
+    border: 3px;
+    border-color: black;
+}
