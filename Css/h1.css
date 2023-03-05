@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:wght@100;500&family=Source+Sans+Pro:wght@700&display=swap');
 h1
 {
     margin: 0;
@@ -39,4 +40,40 @@ h1
 {
     border: 3px;
     border-color: black;
+}
+
+.about
+{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    color: cornsilk;
+    box-shadow: 5px 3px 6px 5px;
+    padding: 13px;
+}
+
+.dnav
+{
+    background: rgba(73, 64, 64, 0.8);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.icerik
+{
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+.aboutmetin
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: cornsilk;
+    box-shadow: 5px 3px 6px 5px;
+    margin: 15px;
+    padding: 8px;
+    padding-left: 15px;
+    text-align: left;
+    font-size: 26px;
 }
